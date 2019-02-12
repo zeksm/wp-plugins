@@ -1,0 +1,78 @@
+.edit-post-layout__content #wpexre_schedule_edit, #normal-sortables #wpexre_schedule_edit {
+  width: 260px;
+  display: inline-block;
+  float: left;
+}
+
+.edit-post-layout__content #wpexre_scheduled, #normal-sortables #wpexre_scheduled {
+  margin-left: 265px;
+}
+
+#wpexre_scheduled_table {
+  width: 100%;
+  display: table;
+}
+
+#wpexre_scheduled_head {
+  display: table-header-group;
+}
+
+.wpexre_scheduled_head_cell, .wpexre_single_field {
+  display: table-cell;
+  text-align: center;
+  padding: 1px;
+}
+
+.wpexre_scheduled_head_cell {
+  font-weight: bold;
+  padding: 5px;
+}
+
+#wpexre_scheduled_body {
+  display: table-row-group;
+}
+
+#wpexre_scheduled_head_row, .wpexre_single_schedule {
+  display: table-row;
+}
+
+.wpexre_single_field_title {
+  display: none;
+}
+
+.edit-post-sidebar #wpexre_scheduled_table, #side-sortables #wpexre_scheduled_table {
+  display: block;
+  border-top: 1px solid #eee;
+}
+
+.edit-post-sidebar #wpexre_scheduled_head, #side-sortables #wpexre_scheduled_head {
+  display: none;
+}
+
+.edit-post-sidebar #wpexre_scheduled_body, #side-sortables #wpexre_scheduled_body {
+  display: block;
+}
+
+.edit-post-sidebar .wpexre_single_schedule, #side-sortables .wpexre_single_schedule {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #eee;
+  padding: 3px 0;
+}
+
+.edit-post-sidebar .wpexre_single_field, #side-sortables .wpexre_single_field {
+  display: block;
+  flex: 1;
+  padding: 4px 0;
+}
+
+.edit-post-sidebar .wpexre_single_field_content, #side-sortables .wpexre_single_field_content {
+  margin-left: 7em;
+}
+
+.edit-post-sidebar .wpexre_single_field_title, #side-sortables .wpexre_single_field_title {
+  display: block;
+  width: 7em;
+  float: left;
+  font-weight: bold;
+}
